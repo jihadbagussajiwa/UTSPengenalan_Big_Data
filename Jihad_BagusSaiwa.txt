@@ -1,0 +1,69 @@
+1. Cari dan sebutkan 3 DBMS yang bisa digunakan untuk mengelola big data
+Jawab:
+	A. MySQL
+	Kelebihannya:
+	Free/gratis.
+	Selalu stabil dan cukup tangguh.
+	Keamanan yang cukup baik.
+	Sangat mendukung transaksi, dan dukungan dari banyak komunitas.
+	Sangat fleksisbel dengan barbagai macam program.
+	Perkembangan yang cepat.
+
+	Kekurangannya:
+	Kurang mendukung koneksi bahasa pemerograman misalnya seperti Visual Basic (VB), Foxpro, Delphi sebab koneksi ini dapat menyebabkan field yang dibaca harus sesuai dengan koneksi bari bahasa pemerograman visual tersebut.
+	Data yang dapat ditangani belum besar dan belum mendukung widowing Function.
+
+	B. Oracle
+	Kelebihannya:
+	Terdapat beragan fitur yang bisa memenuhi tuntutan fleksibilitas dari organisasi atau perusahaan yang besar.
+	Bisa mendayaggunakan lebih dari satu server dan penyimpanan data dengan cukup mudah.
+	Performa pemrosesan transaksi yang sangat tinggi.
+
+	Kekurangannya:
+	Pemakaiannya membutuhkan dana atau biaya karena mahal dan diperlukan DBA yang cukup handal sebab DBMS ini cukup rumit.
+
+	C. Microsoft SQL server
+	Kelebihannya:
+	DBMS ini sangat cocok untuk perusahaan mikro, menengah hingga perusahaan besar karena mampu mengelola data yang besar.
+	Mempunyai kelebihan untuk men-manage user serta tiap user-nya dapat diatur hak aksesnya terhadap pengaksesan database oleh DBA.
+	Tingkat pengamanan datanya sangat baik.
+	Dapat melakukan atau memiliki back-up, recovery, dan rollback data.
+	Kelebihan lainnya mempunyai kemampuan membuat database mirroring dan juga culustering.
+
+	Kekurangannya:
+	Hanya bisa berjalan pada platform OS (Operasi system) Microsoft windows.
+	Perangkat lunak (software) ini berilisensi dan tentunya pemakaiannya membutuhkan biaya yang tergolong cukup mahal.
+
+2. Carilah contoh masalah big data yang bisa dikelola menggunakan salah satu DBMS tersebut,
+Jawab:
+	mengimplementasikan Google Maps APIsecara dinamis, dalam suatu sistem informasi berbasis PHP danMySQL.
+
+jelaskan mulai dari instalasi sampai CRUD untuk data menggunakan DBMS tersebut. 
+Jawab:
+	Untuk  alur  proses  dari databasedengan mengunakan PHPyang     diintegrasikan dengan Google   Maps
+	DataBase>API Maps>Query Sql Dengan Php>Penggunaan Fungsi JavaScript Dan Google maps
+
+	Database 
+	Databasedigunakan  untuk  menyimpan latitudedan longitudedari  area  maps yang  akan  ditampilkan  dalam  aplikasi web. Sebagai contoh berikut data latitudedan longitudedari  beberapa  provinsi  di Indonesia
+
+	Google Maps APIGoogle   Maps   APIdigunakan   untuk integrasi web dengan Google MAPS.
+
+	Modul untuk menampilkan data provinsiModul ini digunakan untuk menampilkan provinsi     
+	berdasarkan latitudedan longitudeyang    terdapat    di    dalam database.
+
+	Modul  untuk  menampilkan  detail  dari mapsModul  ini  digunakan  untuk  melakukan pencarian detail dari mapssesuai dengan kata kunci pencarian.
+
+Asumsikan anda akan memecahkan masalah big data yang sudah anda cari contoh tadi,
+Jawab:
+	membantu dan mempermudah   penyampaian   informasi kepada   masyarakat   mengenai berbagai letak  dari  berbagai  obyek  wisata  yang ada.
+
+	mengimplementasikan Google Maps APIsecara dinamis, dalam suatu sistem informasi berbasis PHP danMySQL.
+
+jelaskan kira-kira bagaimana arsitektur dari solusi big data menggunakan DBMS tersebut, gambarkan diagramnya.
+Jawab:
+	Pemanfaatan Google  Maps  APIdalam menampilkan   informasi   mengenai   lokasi tempat-tempat  wisata,  perlu  dikembangkan lagi,   
+	mengingat   fasilitas   yang   disediakan Google   Maps   APIsudah   cukup   beragam seperti    penambanan    informasi    mengenai detail    
+	dari    masing-masing    lokasi    serta beberapa  keterangan  mengenai  lokasi  yang saling terintegrasi dengan maps.
+
+
+https://journal.uii.ac.id/jurnal-teknoin/article/view/3689/3267
